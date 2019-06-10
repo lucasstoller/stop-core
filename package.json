@@ -13,45 +13,30 @@
     "lint": "node_modules/.bin/eslint ."
   },
   "dependencies": {
-    "bcrypt": "^1.0.3",
-    "bluebird": "^3.5.1",
     "body-parser": "^1.15.2",
+    "case-converter": "^1.0.1",
     "cookie-parser": "^1.4.3",
     "debug": "~2.2.0",
     "dotenv": "^5.0.1",
-    "ejs": "^2.3.0",
     "elasticsearch": "^14.2.0",
     "express": "^4.14.0",
     "fs-extra": "2.0.0",
+    "i18n": "^0.8.3",
     "jsonwebtoken": "^8.2.1",
     "lodash": "^4.0.0",
     "moment": "^2.15.1",
     "morgan": "^1.7.0",
     "mosca": "^2.8.1",
-    "mysql": "^2.11.1",
-    "node-ses": "^2.1.0",
-    "nodemailer": "2.6.4",
-    "nodemailer-mailgun-transport": "^1.2.2",
-    "nodemailer-ses-transport": "^1.5.1",
-    "redis": "^2.8.0",
-    "request": "2.81.0",
-    "sequelize": "4.00.6",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.0.6",
     "sequelize-cli": "^2.8.0",
-    "serve-favicon": "~2.3.0",
-    "strong-soap": "^1.2.5",
-    "validator": "^9.4.1",
-    "i18n": "^0.8.3",
-    "case-converter": "^1.0.1"
+    "zeromq": "^5.1.0"
   },
   "devDependencies": {
-    "chai": "~4.1.2",
-    "chai-http": "~3.0.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.12.0",
-    "expect.js": "^0.3.1",
-    "faker": "~4.1.0",
-    "mocha": "^3.0.2",
-    "supertest": "^2.0.0"
+    "expect.js": "^0.3.1"
   }
 }
