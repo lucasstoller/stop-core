@@ -1,0 +1,10 @@
+{
+    "name": "Service Prod",
+    "apps" : [{
+        "NODE_ENV": "production",
+        "script"    : "bin/start.js",
+        "instances" : "max",
+        "exec_mode" : "cluster",
+        "watch": true
+    }]
+}

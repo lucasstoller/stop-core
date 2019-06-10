@@ -1,0 +1,19 @@
+image: node:9.10.1
+clone:
+  depth: full
+pipelines:
+  default:
+    - step:
+        caches:
+          - node
+        name: ESlint
+        script:
+          - npm install
+          - npm run lint
+    - step:
+        caches:
+          - node
+        name: Test
+        script:
+          - npm install
+          - npm run bitbucket-test
